@@ -41,13 +41,13 @@ function putSymbol(y) {
         x++;
         if (x % 2 == 1 && seconds > 0) {
             cell.style.display = "block";
-            cell.src = "imgs/x.png";
+            cell.src = "x.png";
             currentPlayer.textContent = "Current Player: O";
             currentPlayer.style.color = "rgb(38, 151, 225)";
         }
         else if (x % 2 == 0 && seconds > 0) {
             cell.style.display = "block";
-            cell.src = "imgs/o.png";
+            cell.src = "o.png";
             currentPlayer.textContent = "Current Player: X";
             currentPlayer.style.color = "rgb(255, 45, 45)";
         }
